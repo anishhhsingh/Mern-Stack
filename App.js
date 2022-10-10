@@ -1,9 +1,9 @@
-import AllUsers from './Component/AllUsers';
-import AddUser from './Component/AddUser';
-import EditUser from './component/EditUser.jsx';
-import NavBar from './Component/NavBar';
-import NotFound from './Component/NotFound'; 
-import CodeForInterview from './Component/CodeForInterview';
+import AllUsers from 'AllUsers';
+import AddUser from 'AddUser';
+import EditUser from 'EditUser.jsx';
+import NavBar from 'NavBar';
+import NotFound from 'NotFound'; 
+import CodeForInterview from 'CodeForInterview';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
