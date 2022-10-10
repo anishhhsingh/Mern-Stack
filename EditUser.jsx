@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 import { FormGroup, FormControl, InputLabel, Input, Button, styled, Typography } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
-import { getUsers, editUser } from '../Service/api';
+import { getUsers, editUser } from 'api';
 
 const initialValue = {
     name: '',
