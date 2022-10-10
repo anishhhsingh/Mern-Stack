@@ -3,8 +3,8 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import cors from 'cors';
 
-import Routes from './server/route.js';
-import Connection from './database/db.js';
+import Routes from 'route.js';
+import Connection from 'db.js';
 
 const app = express();
 
